@@ -6,7 +6,7 @@ describe Tagging, type: :model do
     it {should validate_presence_of(:article_id)}
   end
 
-  describe "validations" do
+  describe "relationships" do
     it {should belong_to(:article)}
     it {should belong_to(:tag)}
   end

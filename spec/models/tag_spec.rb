@@ -5,7 +5,7 @@ describe Tag, type: :model do
     it {should validate_presence_of(:name)}
   end
 
-  describe "validations" do
+  describe "relationships" do
     it {should have_many(:taggings)}
   end
 end
