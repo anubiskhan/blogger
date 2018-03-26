@@ -8,5 +8,6 @@ describe Article, type: :model do
 
   describe "relationshps" do
     it {should have_many(:comments)}
+    it {should have_many(:taggings)}
   end
 end
